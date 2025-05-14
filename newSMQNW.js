@@ -48,6 +48,6 @@ for (var n = 0; n < pageCount; ++n) {
 
 }
 
-pdf.save(iName + 'new.pdf', "pretty,compress-images");
+pdf.save(iName.replace(/\.pdf$/i, '') + '_new.pdf', "pretty,compress-images");
 
 
