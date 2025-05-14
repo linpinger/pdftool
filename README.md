@@ -1,7 +1,15 @@
 # foxtool
 放一些PDF工具，脚本，项目
 
-## delSMQNW.js
+## newSMQNW.js  推荐用这个
+
+- 功能: mutool支持的js脚本，用来将 扫描全能王 生成的PDF中的 最大图片 提取并生成 干净的新PDF
+
+- 用法: `mutool run newSMQNW.js input.pdf`
+
+- 其他: 见下面
+
+## delSMQNW.js 不推荐使用，删的不干净
 
 - 功能: mutool支持的js脚本，用来将 扫描全能王 生成的PDF中的 二维码，文字，链接移除（不显示，部分对象应该还会残留在PDF中）
 
