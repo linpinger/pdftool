@@ -1,6 +1,12 @@
 # foxtool
 放一些PDF工具，脚本，项目
 
+## pic2pdf.js
+
+- 功能: mutool支持的js脚本，用来将 输入的图片，生成 指定页面大小[a3|a4|a5]，页面方向根据图片方向决定 的新PDF
+
+- 用法: `mutool run pic2pdf.js a5 1.jpg 2.png n.jpg`
+
 ## newSMQNW.js  推荐用这个
 
 - 功能: mutool支持的js脚本，用来将 扫描全能王 生成的PDF中的 最大图片 提取并生成 干净的新PDF
